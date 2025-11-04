@@ -2,7 +2,6 @@
 clase 4 ejercicio 2*/
 
 #include <stdio.h>
-#include <stdio.h>
 
 int main() {
     int numeros[10];
