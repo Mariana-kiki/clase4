@@ -1,4 +1,5 @@
-/*
+/*Mariana Gutiérrez Acosta
+clase 4 ejercicio 4*/
 
 #include <stdio.h>
 
