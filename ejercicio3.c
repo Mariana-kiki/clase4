@@ -1,6 +1,8 @@
+
+
 #include <stdio.h>
 
-int void() 
+void main() 
 {
     int numero, suma = 0, contador = 0;
 
