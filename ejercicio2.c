@@ -10,11 +10,14 @@ int main() {
     int mayor, menor;
 
     // Solicitar 10 números positivos
-    for (int i = 0; i < 10; i++) {
-        do {
+    for (int i = 0; i < 10; i++) 
+    {
+        do 
+        {
             printf("Introduce el número positivo #%d: ", i + 1);
             scanf("%d", &numeros[i]);
-            if (numeros[i] <= 0) {
+            if (numeros[i] <= 0) 
+            {
                 printf("Por favor, introduce un número entero positivo.\n");
             }
         } while (numeros[i] <= 0);
@@ -24,12 +27,15 @@ int main() {
     mayor = menor = numeros[0];
 
     // Calcular suma, mayor y menor
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) 
+    {
         suma += numeros[i];
-        if (numeros[i] > mayor) {
+        if (numeros[i] > mayor) 
+        {
             mayor = numeros[i];
         }
-        if (numeros[i] < menor) {
+        if (numeros[i] < menor) 
+        {
             menor = numeros[i];
         }
     }
