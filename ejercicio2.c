@@ -3,7 +3,7 @@ clase 4 ejercicio 2*/
 
 #include <stdio.h>
 
-int main() {
+void main() {
     int numeros[10];
     int suma = 0;
     float media;
@@ -50,5 +50,4 @@ int main() {
     printf("Mayor número introducido: %d\n", mayor);
     printf("Menor número introducido: %d\n", menor);
 
-    return 0;
 }
