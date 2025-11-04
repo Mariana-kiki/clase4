@@ -1,8 +1,9 @@
-
+/*Mariana Gutiérrez Acosta
+clase 4 ejercicio 5*/
 
 #include <stdio.h>
 
-NUMERO_SECRETO 58  
+#define NUMERO_SECRETO 58  
 
 void main() 
 {
