@@ -12,16 +12,16 @@ void main()
         printf("Introduce un número: ");
         scanf("%d", &numero);
 
-        suma += numero;
+        suma = suma + numero;
         contador++;
     }
 
     if (contador == 10) 
     {
-        printf("Se han introducido 10 números.\n");
-    } 
-    else 
+        printf("Se han introducido 10 números\n");
+    }
+    if (suma > 100) 
     {
-        printf("La suma de los números introducidos es mayor que 100.\n");
+        printf("La suma de los números introducidos es superior a 100\n");
     }
 }
